@@ -68,14 +68,6 @@ updateClock();
 window.setInterval(updateClock, 1000);
 
 
-kjkl
-
-kjhkjhkjh
-
-
-
-
-
 
 
 
