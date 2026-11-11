@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Norte es un estudio creativo independiente que convierte buenas ideas en marcas digitales con personalidad."
+    />
+    <meta name="theme-color" content="#f5f2eb" />
+    <title>Norte — Ideas que encuentran su rumbo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#inicio" aria-label="Norte, inicio">
+        norte<span class="wordmark__dot">.</span>
+      </a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Abrir menú"
+      >
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="#estudio">Estudio</a>
+        <a href="#proyectos">Proyectos</a>
+        <a class="nav-contact" href="mailto:hola@norte.studio">
+          Hablemos <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="status-dot"></span> Estudio creativo independiente</p>
+          <h1>Ideas que<br />encuentran su <span>rumbo.</span></h1>
+          <div class="hero__bottom">
+            <p>
+              Damos forma a marcas con intención y experiencias digitales que
+              dejan huella.
+            </p>
+            <a class="round-link" href="#proyectos" aria-label="Descubre nuestros proyectos">
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Composición abstracta naranja sobre fondo arena" role="img">
+          <div class="hero-art__sun"></div>
+          <div class="hero-art__ring hero-art__ring--one"></div>
+          <div class="hero-art__ring hero-art__ring--two"></div>
+          <div class="hero-art__orbit"></div>
+          <span class="hero-art__label">N 40° 25' 01.2"</span>
+          <span class="hero-art__number">01</span>
+        </div>
+        <div class="hero__aside">ESTRATEGIA &nbsp;·&nbsp; IDENTIDAD &nbsp;·&nbsp; DIGITAL</div>
+      </section>
+
+      <section class="intro section-wrap" id="estudio">
+        <p class="eyebrow">01 — Lo que nos mueve</p>
+        <div class="intro__content">
+          <h2>Un buen diseño no solo se ve. <span>Te lleva a algún lugar.</span></h2>
+          <div class="intro__detail">
+            <p>
+              Somos un equipo pequeño con ideas grandes. Unimos estrategia,
+              diseño y tecnología para ayudar a proyectos valientes a llegar más
+              lejos.
+            </p>
+            <a class="text-link" href="mailto:hola@norte.studio">
+              Conoce al equipo <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section-wrap" id="proyectos">
+        <div class="section-heading">
+          <p class="eyebrow">02 — Selección de proyectos</p>
+          <p class="section-heading__note">Unas cuantas buenas historias.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-card--alto">
+            <a href="mailto:hola@norte.studio?subject=Proyecto%20Alto" class="project-card__link">
+              <div class="project-visual project-visual--alto">
+                <span class="alto-sun"></span>
+                <span class="alto-mountain alto-mountain--back"></span>
+                <span class="alto-mountain alto-mountain--front"></span>
+                <span class="visual-caption">AIRE LIBRE, A OTRO NIVEL</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Alto</h3><p>Una nueva forma de explorar</p></div>
+                <span class="project-type">IDENTIDAD · DIGITAL</span>
+              </div>
+            </a>
+          </article>
+          <article class="project-card project-card--lento">
+            <a href="mailto:hola@norte.studio?subject=Proyecto%20Lento" class="project-card__link">
+              <div class="project-visual project-visual--lento">
+                <span class="lento-star" aria-hidden="true">✳</span>
+                <span class="lento-name">lento</span>
+                <span class="lento-tag">PAUSA. RESPIRA. DISFRUTA.</span>
+              </div>
+              <div class="project-meta">
+                <div><h3>Lento</h3><p>El placer de ir sin prisa</p></div>
+                <span class="project-type">ESTRATEGIA · PACKAGING</span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact__inner">
+          <p class="eyebrow">03 — El siguiente paso</p>
+          <h2>¿Y si hacemos<br />algo <span>increíble?</span></h2>
+          <a class="contact__link" href="mailto:hola@norte.studio">
+            Cuéntanos tu idea <span aria-hidden="true">↗</span>
+          </a>
+          <div class="contact__decoration" aria-hidden="true">N</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#inicio">norte<span class="wordmark__dot">.</span></a>
+      <p>Un estudio pequeño, con ganas de llegar lejos.</p>
+      <p>© <span id="current-year"></span> Norte Studio</p>
+    </footer>
+
+    <div class="analog-clock" role="img" aria-label="Reloj analógico con la hora local">
+      <div class="clock-face">
+        <span class="clock-number clock-number--12">12</span>
+        <span class="clock-number clock-number--3">3</span>
+        <span class="clock-number clock-number--6">6</span>
+        <span class="clock-number clock-number--9">9</span>
+        <span class="clock-hand clock-hand--hour"></span>
+        <span class="clock-hand clock-hand--minute"></span>
+        <span class="clock-hand clock-hand--second"></span>
+        <span class="clock-pin"></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
