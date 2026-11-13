@@ -21,7 +21,8 @@ Mantener la página visualmente coherente, accesible y fácil de personalizar. C
 ```text
 Myweb/
 ├── index.html
-├── styles.css
+├── styles.cssit add .
+
 ├── main.js
 ├── README.MD
 ├── .github/
